@@ -1,0 +1,21 @@
+# This file may be used to create an environment using:
+# $ conda env create --name <env> --file <this file>
+# platform: linux-64
+name: fink
+
+channels:
+  - conda-forge
+
+dependencies:
+  - pandas>=0.23.0
+
+  - pip:
+    - numpy>=1.14
+    - coverage>=4.2
+    - coveralls
+    - confluent-kafka>=0.11.4
+    - avro-python3
+    - Cython
+    - fastavro
+    - pyarrow
+    - codecov
