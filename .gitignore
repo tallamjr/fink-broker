@@ -6,3 +6,7 @@ cov.txt
 htmlcov
 old
 datasim/*.avro
+
+archive/
+nohup.out
+web/data/
